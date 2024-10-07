@@ -18,17 +18,17 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Adds space between images */
+  gap: 20px;
 }
 
 .pdf-page {
-  max-width: 100%; /* Makes the image responsive */
+  max-width: 100%;
   height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow effect */
-  border-radius: 8px; /* Slight border-radius for aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
-/* Responsive design */
+/* Breakpoints */
 @media (max-width: 768px) {
   .pdf-page {
     max-width: 90%;
